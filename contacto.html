@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad Oswald</title>
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!-- HEADER MENU -->
+    <header>
+        <div class="container_header">
+            <div class="logo">
+                <a href="#menu"> <img src="logo.jpg" alt=""></a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html"><b>Inicio</b></a></li>
+                        <li><a href="#container_about"><b>Nosotros</b></a></li>
+                        <li><a href="index.html#container_service"><b>Servicios</b></a></li>
+                        <li><a href="#contacto"><b>Contacto</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="contacto">
+            <div class="container-contacto">
+        <h2>Contacto</h2>
+        <h3>Escríbenos a través de nuestro formulario de contacto y nosotros te contactaremos</h3>
+             </div>
+        </div>
+
+      <section class="contact">
+        <div class="contact_image-wrapper">
+            <img src="/images/contacto2.jpg" alt="" class="contact_image">
+        </div>
+        <div class="contact_right-side">
+            <h1 class="contact_title">Escribe tus datos aquí</h1>
+            <form action="form.php" method="POST" class="contact_form-wrapper">
+                <div class="contact_input-line">
+                    <label for="nombre" class="contact_label">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" class="contact_input">
+                </div>
+                <div class="contact_input-line">
+                    <label for="email" class="contact_label">Email:</label>
+                    <input type="email" name="email" id="email" class="contact_input">
+                </div>
+                <div class="contact_input-line">
+                    <label for="telefono" class="contact_label">Teléfono:</label>
+                    <input type="number" name="telefono" id="telefono" class="contact_input">
+                </div>
+                <div class="contact_input-line">
+                    <label for="asunto" class="contact_label">Asunto:</label>
+                    <input type="text" name="asunto" id="asunto" class="contact_input">
+                </div>
+                <div class="contact_input-line">
+                    <label for="mensaje" class="contact_label">Mensaje:</label>
+                    <textarea type="text" name="mensaje" id="mensaje" class="contact_input"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="contact_submit-button">
+
+            </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+        <div class="link">
+            <a href="index.html" class="logo">Oswald Contabilidad</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="index.html"><b>Inicio</b></a></li>
+                <li><a href="#nosotros"><b>Nosotros</b></a></li>
+                <li><a href="#servicios"><b>Servicios</b></a></li>
+                <li><a href="contacto.php"><b>Contacto</b></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
